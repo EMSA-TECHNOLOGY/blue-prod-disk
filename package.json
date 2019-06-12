@@ -1,7 +1,7 @@
 {
-  "name": "sails-disk",
-  "version": "1.1.2",
-  "description": "Persistent local-disk (and/or memory) adapter for Sails.js / Waterline.",
+  "name": "blue-prod-disk",
+  "version": "0.0.1",
+  "description": "Persistent local-disk (and/or memory) adapter for blue-prod / Waterline.",
   "main": "index.js",
   "scripts": {
     "test": "npm run lint && npm run custom-tests",
@@ -10,7 +10,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/balderdashy/sails-disk.git"
+    "url": "git://github.com/EMSA-TECHNOLOGY/blue-prod-disk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EMSA-TECHNOLOGY/blue-prod-disk/issues"
   },
   "keywords": [
     "nedb",
@@ -22,30 +25,20 @@
     "database",
     "sails",
     "sails.js",
-    "sailsjs"
+    "sailsjs",
+    "blue-prod"
   ],
-  "author": "The Sails Company",
-  "contributors": [
-    {
-      "name": "Scott Gress"
-    },
-    {
-      "name": "Cody Stoltman"
-    },
-    {
-      "name": "Mike McNeil"
-    }
-  ],
+  "author": "Vu Do",
   "license": "MIT",
   "dependencies": {
-    "@sailshq/lodash": "^3.10.2",
+    "blue-prod-lodash": "0.0.1",
     "async": "2.0.1",
     "machinepack-fs": "^12.0.1",
     "nedb": "1.8.0"
   },
   "devDependencies": {
     "mocha": "3.0.2",
-    "@sailshq/eslint": "^4.19.3",
+    "blue-prod-eslint": "0.0.1",
     "waterline-adapter-tests": "^1.0.0-2"
   },
   "waterlineAdapter": {
